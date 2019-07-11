@@ -1,0 +1,61 @@
+h1, p {
+  font-family: Lato;
+}
+
+.list-card {
+  display: block;
+  text-decoration: none;
+  color: #444;
+  border: 1px solid #e5e5e5;
+  padding: 8px;
+  font: 14px arial;
+  box-shadow: 2px 2px 2px 1px #f9f9f9;
+  width: 70%;
+  margin: 8px auto;
+}
+.list-card:hover {
+  background: #f8f8f8;
+  cursor: pointer;
+  border-color: #ccc;
+}
+.detail-card {
+  border: 1px solid #ccc;
+  width: 80%;
+  margin: 20px auto;
+  padding: 8px 14px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px 1px #eaeaea;
+}
+.detail-card h3{
+  margin: 8px auto;
+  width: 135px;
+  color: #777;
+}
+.detail-card td{
+  margin: 0;
+  padding: 12px;
+  font: 15px arial;
+}
+.detail-card td:first-child{
+  width: 40%;
+}
+tr td:nth-child(even) {
+  font-weight: 550;
+  color: #444;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.detail-card tr{
+  border: 1px solid #ccc;
+  border-left: none;
+  border-right: none;
+}
+.detail-card tr:last-child{
+  border-bottom: none;
+}
+.btn-refresh {
+  float: right;
+  margin-top: -40px;
+}
